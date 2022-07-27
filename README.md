@@ -15,9 +15,7 @@
   <a href="#-telas-das-aplica%C3%A7%C3%A3o">Telas</a> &#xa0; | &#xa0;
   <a href="#-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-o-que-voc%C3%AA-precisa-para-clonar-este-projeto">Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-iniciando-o-projeto-em-seu-computador">Inciando o projeto</a> &#xa0; | &#xa0;
-  <a href="#memo-licen%C3%A7a">Licença</a> &#xa0; | &#xa0;
   <a href="#-autor">Autor</a>
 </p>
 <br>
@@ -156,5 +154,12 @@ Object {
   },
 
 ```
+## 👽 Autor ##
+
+Feito com :heart: por <p>Stênio Ellison</p>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
 
 
