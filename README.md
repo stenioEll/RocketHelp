@@ -60,5 +60,101 @@ _Confira abaixo as tecnologias utilizadas no projeto:_
 - [Firebase](https://www.firebase.google.com/)
 - [NativeBase](https://nativebase.io/)
 - [Phosphor](https://phosphoricons.com/)
+## :checkered_flag: Para inicializar o projeto no seu computador ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/stenioEll/RocketHelp.git
+
+# Access
+$ cd Rockethelp
+
+# Install dependencies
+$ yarn
+
+# Ou npm install
+
+# Run the project
+$ yarn android
+
+# ou npm run android
+```
+
+## :monkey: Configurando o acesso ao banco de dados ##
+
+### Criando um banco de dados
+
+- Acesse o console do [firebase](https://console.firebase.google.com/)
+- Selecione a opção **Adicionar projeto**
+- Informe o nome para o projeto
+- Clique em continuar, em seguinte clique em continuar novamente
+
+### Criando acesso iOS para o banco de dados
+
+- Com o projeto criado e selecionado, clique em **Visão geral do projeto**
+- Agora clique em **+Adicionar app** para registrar um novo app para acesso ao seu banco de dados
+- Escolha **iOS+**, preencha ID do pacote Apple e apelido
+- Em seguida clique em **Registrar app**
+- Na tela seguinte, faça o download do pacote **GoogleService-Info.plist**
+- Clique em **Próxima**, em **Próxima** e em **Próxima** novamente e por fim em "Continuar no console**
+  
+### Criando acesso Android para o banco de dados
+
+- Com o projeto criado e selecionado, clique em **Visão geral do projeto**
+-
+- Informe o Nome do pacote do Android
+- Informe um apelido para o app
+- Clique em **Registrar app**
+- Na tela seguinte, faça o download do pacote **google-services.json**
+- Clique em **Próxima**, em **Próxima** e em **Próxima** novamente e por fim em **Continuar no console**
+
+🦇 **NOTA**: Estes dois arquivos devem ser salvos na raiz do projeto.
+
+## ⏰ Configurações do arquivo app.json ##
+
+```json
+{
+  "expo": {
+    "name": "rockethelp",
+    "slug": "rockethelp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.seunome.rockethelp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.seunome.rockethelp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}
+```
+
+## 🔺 Apenas para informação ##
+
+```bash
+expo prebuild
+```
+
+**_Nota_**: Este comando faz a configuração automática do projeto Android e iOS pra você não ter que adicionar as configurações de forma manual os arquivos fora do seu código de desenvolvimento.
+
+## Estrutura das informações no banco ##
+
+```json
+Object {
+    "description": "Descrição do problema",
+    "id": "jbfwxhXoJMgpKsNI7jj8",
+    "patrimony": "147456",
+    "status": "closed",
+    "when": "20/01/22 às 18:52:38",
+  },
+
+```
 
 
