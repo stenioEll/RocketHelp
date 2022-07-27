@@ -1,2 +1,3 @@
-# RocketHelp
-Aplicação de solicitações de manutenção de equipamentos internos de uma empresa
+<div align="center" id="top">
+  <img src="../assets/logo_primary.svg" alt="Rockethelp" />
+</div>
