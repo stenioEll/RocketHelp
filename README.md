@@ -156,7 +156,7 @@ Object {
 ```
 ## 👽 Autor ##
 
-Feito com :heart: por <p>Stênio Ellison</p>
+Feito com :heart: por Stênio Ellison
 
 &#xa0;
 
