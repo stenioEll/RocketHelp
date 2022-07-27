@@ -1,3 +1,3 @@
 <div align="center" id="top">
-  <img src="../assets/logo_primary.svg" alt="Rockethelp" />
+  <img src="./assets/telafinal.png" alt="Rockethelp" />
 </div>
